@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="nam.com">
+        <table>
+            <tr>
+                <td><label for="name">Họ và tên</label></td>
+                    
+                <td>    <input type="text" name="name">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="birday">Ngày sinh</label></td>
+                <td><input type="date" name="birday"></td>
+            </tr>
+            <tr>
+                <td><label>Giới tính</label></td>
+               
+                <td><input type="radio" name="gender" id="male">Nam
+                <input type="radio" name="gender" id="female">Nữ</td>
+            </tr>
+            <tr>
+                <td><label>Số điện thoại</label></td>
+                <td><input type="number" name="sdt"></td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td><input type="text" name="email"></td>
+
+            </tr>
+            <tr>
+                <td><label>Tên công ty</label></td>
+                <td><input type="text" name="tct"></td>
+            </tr>
+            <tr>
+                <td><label>Vai trò trong công ty</label></td>
+                <td><select>
+                    <option value="ceo">Giám đốc điều hành(CEO)</option>
+                    <option value="ns">Trưởng phòng nhân sự</option>
+                    <option value="pgd">Phó giám đốc</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label>Quy mô công ty</label></td>
+                <td><select>
+                    <option value="nho">Doanh nghiệp nhỏ</option>
+                    <option value="lon">Doanh nghiệp lớn</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label>Ngành nghề công ty</label></td>
+                <td><input type="text" name="job"></td>
+            </tr>
+            <tr>
+                <td><label>Lý do tham gia CLB</label></td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Kinh nghiệm lãnh đạo</label></td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Mục tiêu tham gia CLB</label></td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Chương trình sự kiện mong muốn tham gia</label></td>
+                <td><input type="checkbox">Networking
+                <input type="checkbox">Workshops
+            <input type="checkbox">Hội thảo</td>
+            </tr>
+            <tr>
+                <td>Đăng kí nhận bản tin</td>
+                <td><input type="checkbox">Có</td>
+            </tr>
+            
+        </table>
+    </form>
+    <button>Đăng ký hội viên</button>
+</body>
+</html>
