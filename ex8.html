@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="nam.com">
+        <table>
+            <tr>
+                <td><label for="name">Họ và tên</label></td>
+                    
+                <td>    <input type="text" name="name">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="birday">Ngày sinh</label></td>
+                <td><input type="date" name="birday"></td>
+            </tr>
+            <tr>
+                <td><label>Giới tính</label></td>
+               
+                <td><input type="radio" name="gender" id="male">Nam
+                <input type="radio" name="gender" id="female">Nữ</td>
+            </tr>
+            <tr>
+                <td><label for="id">Số căn cước công dân</label></td>
+                <td><input type="number" name="id"></td>
+            </tr>
+            <tr>
+                <td><label for="day">Ngày cấp</label></td>
+                <td><input type="date" name="day"></td>
+            </tr>
+            <tr>
+                <td><label>Nơi cấp</label></td>
+                <td><input type="text" name="dc"></td>
+            </tr>
+            <tr>
+                <td><label>Số điện thoại</label></td>
+                <td><input type="number" name="sdt"></td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td><label>Địa chỉ thường trú</label></td>
+                <td><textarea name="dctt"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Địa chỉ tạm trú</label></td>
+                <td><textarea name="dctmt"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Loại căn cước công dân</label></td>
+                <td><input type="radio" id="cu" name="gender">Loại cũ
+                <input type="radio" id="moi" name="gender">Loại mới</td>
+            </tr>
+            <tr>
+                <td><label>Dân tộc</label></td>
+                <td><input type="text" name="dan_toc"></td>
+            </tr>
+            <tr>
+                <td><label>Tôn giáo</label></td>
+                <td><input type="text" name="tg"></td>
+            </tr>
+            <tr>
+                <td><label>Quốc tịch</label></td>
+                <td><input type="text" name="qt" value="Việt Nam" readonly></td>
+            </tr>
+            <tr>
+                <td><label>Họ tên cha/mẹ</label></td>
+                <td><input type="text" name="namecm"></td>
+            </tr>
+            <tr>
+                <td><label>Số CMND/CCCD của cha/mẹ</label></td>
+                <td><input type="number" name="cm/cc"></td>
+            </tr>
+            <tr>
+                <td><label>Chọn tỉnh/thành phố</label></td>
+                <td><select>
+                    <option value="chon">Chọn tỉnh/thành phố</option>
+                    <option value="hn">Hà Nội</option>
+                    <option value="th">Thanh Hóa</option>
+                    <option value="hcm">Hồ Chí Minh</option>
+                </select></td>
+            </tr>
+        </table>
+    </form>
+    <button>Gửi thông tin</button>
+
+    
+</body>
+</html>
